@@ -10,7 +10,9 @@ package syst17796.week1;
  * @author Khang 2020
  */
 public class Student {
-
+    private String name;
+    private String studentID;
+    private int studentDemo;
     /**
      * @return the name
      */
@@ -39,8 +41,7 @@ public class Student {
         this.studentID = studentID;
     }
     
-    private String name;
-    private String studentID;
+    
     
     public Student(String givenName, String studentID){
         name = givenName;
@@ -53,6 +54,20 @@ public class Student {
      */
     public boolean didStudy(){
         return true;
+    }
+
+    /**
+     * @return the studentDemo
+     */
+    public int getStudentDemo() {
+        return studentDemo;
+    }
+
+    /**
+     * @param studentDemo the studentDemo to set
+     */
+    public void setStudentDemo(int studentDemo) {
+        this.studentDemo = studentDemo;
     }
     
     
