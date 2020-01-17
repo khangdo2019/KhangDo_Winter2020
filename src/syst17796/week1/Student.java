@@ -7,7 +7,7 @@ package syst17796.week1;
 
 /**
  * A class to model students. Students can study. They have a name and ID
- * @author Huu Khang Do 2020
+ * @author Khang 2020
  */
 public class Student {
     private String name;
