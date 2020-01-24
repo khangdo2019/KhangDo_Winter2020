@@ -9,7 +9,7 @@ package syst17796.week1;
  * A class to model students. Students can study. They have a name and ID
  * @author Khang 2020
  */
-public class Student {
+public abstract class Student {
     private String name;
     private String studentID;
     private int studentDemo;
