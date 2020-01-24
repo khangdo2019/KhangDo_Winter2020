@@ -14,6 +14,7 @@ public class Student {
     private String studentID;
     private int studentDemo;
     /**
+     * Creates name for student 
      * @return the name
      */
     public String getName() {
@@ -21,6 +22,7 @@ public class Student {
     }
 
     /**
+     * Sets name for students
      * @param givenName the name to set
      */
     public void setName(String givenName) {
